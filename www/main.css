@@ -1,0 +1,180 @@
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    perspective: 500px;
+}
+
+div.card {
+    box-shadow: 0px 0px 10px, 1px 1px 5px;
+    border-style: solid;
+    border-width: 5px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100%);
+    border-radius: 15px;
+    text-overflow: clip;
+    overflow: hidden;
+    transform-origin: center top;
+    transform: rotateX(-4deg);
+}
+
+div.white {
+    background-color: whitesmoke;
+    color: black;
+}
+
+div.whiteSelected {
+    background-color: palegoldenrod;
+    color: black;
+}
+
+div.black {
+    background-color: black;
+    color:white;
+    border-color: white;
+    box-shadow: 0px 0px 10px black, 1px 1px 5px black;
+}
+
+div p {
+    float: left;
+    width: auto;
+    height: auto;
+    margin-left: 0.5em;
+    font-family: fantasy;
+    font-size: 3em;
+    text-overflow: clip;
+    overflow: hidden;
+}
+
+div.card p.backOfCard {
+    transform: scaleX(-1);
+    font-size: 6em;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.menubar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 35px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+div.gameInfo {
+    background-color: lightblue;
+}
+
+div.gameInfo p {
+    width: 100%;
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+div.message {
+    box-shadow: 0px 0px 10px, 1px 1px 5px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    text-align: center;
+}
+
+div.message p {
+    width: 100%;
+    font-size:4em;
+    text-align: center;
+}
+
+.goldenPoop {
+    background-image: url(poop_emoji_gold.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.brownPoop {
+    background-image: url(poop_emoji_brown.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+div.startGame {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div.startGame button {
+    background-color: #6fc4fa;
+    width: 70%;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#gameIdInput {
+    width: 70%;
+}
+
+#qrcode {
+    clear: left;
+    width:280px;
+    height:280px;
+    background-color: white;
+    padding: 24px 0px 0px 24px;
+    margin: 0 auto;
+}
+
+#topSpace {
+    margin-top: 50px;
+}
+
+.pCenter {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.center {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.legalese {
+    font-size: 1em;
+}
+
+.ui-input-text {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.ui-page-theme-a .ui-btn {
+    background-color: lightblue;
+}
+
+h1 {
+    margin-left: 0.5em;
+    font-family: fantasy;
+    font-size: 3em;
+}

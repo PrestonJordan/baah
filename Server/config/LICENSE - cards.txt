@@ -1,0 +1,4 @@
+This license applies to the cards.txt file. The cards.txt file contains the original www.cardsagainsthumanity.com card set, licensed under the CC BY-NC-SA 2.0 license.
+Changes were made to the format of card list such that it is easily digestable by our software. Select cards and special characters were ommitted. All blanks were shortened to a single underscore.
+
+The CC BY-NC-SA 2.0 license can be found at https://creativecommons.org/licenses/by-nc-sa/2.0/
